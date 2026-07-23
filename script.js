@@ -1,4 +1,5 @@
 const books = []
+const bookContainer = document.querySelector("#book-container")
 
 function Book(title, author, read) {
     this.title = title;
@@ -15,6 +16,12 @@ function addBookToLibrary (title, author, read) {
 addBookToLibrary("idk1","idk1","no")
 addBookToLibrary("idk2","idk2","yes")
 
-console.log(books)
+function displayBooks(arr) {
+    let arrayOfBooks = arr
+    for (book of arrayOfBooks) {
+        console.log(book)
+    }
+    bookContainer.appendChild(".child")
+}
 // need a function to loop through the books array and
 // display them ig

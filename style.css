@@ -4,4 +4,14 @@ h1 {
 
 body {
     background-color: black;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#book-container {
+    border: 2px solid green;
+    width: 95vw;
+    height: 80vh;
+    border-radius: 25px;
 }
